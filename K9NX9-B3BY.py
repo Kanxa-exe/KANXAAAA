@@ -342,7 +342,6 @@ def approval():
   info()
   animation("\033[1;37m [\u001b[36m•\033[1;37m] You Need Approval To Use This Tool   \033[1;37m")
   print("\033[1;37m [\u001b[36m•\033[1;37m] Your Key :\u001b[36m "+id);time.sleep(0.1)
-  print ("""\033[1;37m----------------------------------------------""")
   try:
     httpCaht = requests.get("https://github.com/Kanxa-exe/KANXAAAA/blob/main/kanxa.txt).text
     if id in httpCaht:
