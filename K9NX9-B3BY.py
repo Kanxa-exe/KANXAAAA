@@ -332,32 +332,7 @@ logo = f"""
 ██║  ██╗██║  ██║██║ ╚████║██╔╝ ██╗██║  ██║
 ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝
 ──────────────────────────────────────────────────────────────────────────
-def approval():
-  os.system('git pull')
-  time.sleep(1)
-  uuid = str(os.geteuid())+"DS"+str(os.geteuid())
-  id = "AD-"+"".join(uuid)
-  os.system('clear')
-  banner()
-  info()
-  animation("\033[1;37m [\u001b[36m•\033[1;37m] You Need Approval To Use This Tool   \033[1;37m")
-  print("\033[1;37m [\u001b[36m•\033[1;37m] Your Key :\u001b[36m "+id);time.sleep(0.1)
-    httpCaht = requests.get("https://github.com/Kanxa-exe/KANXAAAA/blob/main/kanxa.txt).text
-    if id in httpCaht:
-      animation("\033[1;97m >> Your Key Has Been Approved !!!")
-      msg = str(os.geteuid())
-      time.sleep(1)
-      pass
-    else: 
-      animation("\x1b[1;97m >> COPY YOUR KEY AND SEND TO AUTHOR ");
-      time.sleep(0.1)
-      input(' >>  Send Your Key ')
-      time.sleep(1)
-      exit()
-  except: 
-     os.system('xdg-open https://www.facebook.com/profile.php?id=61553589340599')
-     exit() 
-approval()
+
 
  \033[1;36m[<>] OWNER   :  KANXA × NO ONE                                      
  [<>] \033[1;36mGITHUB  :  KANXA-HERE                                                
